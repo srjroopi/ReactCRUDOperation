@@ -1,0 +1,151 @@
+.body{
+    width:100%;
+  }
+  
+  .navbar {
+    background-color: rgb(223, 223, 223);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    height: 50px;
+    
+  }
+  
+  .heading {
+      color: rgb(0, 0, 0);
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      text-align: center;
+      text-transform: uppercase;
+      font-size: 2rem;
+    }
+    h1{
+      color: #000;
+    }
+    .SeaCol{
+      position: relative;
+    }
+    .AddCol{
+      position: relative;
+    }
+  
+    .Searching{
+      padding: 10px 10px 10px 10px;
+      margin: 10px 10px 10px 10px;
+      width: 250px;
+      border: 1px solid rgb(255, 255, 255);
+      border-radius: 30px;
+      font-size: 16px;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      justify-content: center;
+    }
+   
+    .SButton {
+      position: absolute;
+      top: 50%;
+      right: 10px; 
+      transform: translateY(-50%);
+      margin-left: 20px;
+      margin-bottom: -17px;
+      width: 30px;
+      height: 30px;
+      padding: 10px 10px 10px 10px;
+      border-radius: 25px;
+      color: #000000;
+      justify-content: center;
+    }
+    .AButton{
+      position: absolute;
+      top: 50%;
+      right: 10px; 
+      transform: translateY(-50%);
+      margin-left: 20px;
+      margin-bottom: -17px;
+      width: 30px;
+      height: 30px;
+      padding: 10px 10px 10px 10px;
+      border-radius: 25px;
+      color: #000000;
+      justify-content: center;
+      cursor: pointer;
+    }
+    .Adding {
+      margin: 10px 10px 10px 10px;
+      padding: 10px 10px 10px 10px;
+      width: 250px;
+      border: 1px solid rgb(255, 255, 255);
+      border-radius: 30px;
+      font-size: 16px;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      justify-content: center;
+    }
+    .input_container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     }
+  
+     table {
+      width: 80%;
+      justify-content: center;
+      padding: 10px 10px 10px 10px;
+      margin: 0px 10% 0px 10%;
+      align-items: center;
+      border-collapse:collapse;
+     }
+     th {
+      padding: 10px 30px 10px 30px;
+      font-size: 25px;
+      color: rgb(255, 255, 255);
+      background-color: rgb(0, 0, 0);
+      text-transform: uppercase;
+    }
+     td {
+      padding: 8px;
+      text-align: center;
+      vertical-align: middle;
+      font-weight: 300;
+      font-size: 15px;
+      color: #000000;
+     }
+     .tabhead {
+      background-color: #f2f2f2;
+     }
+     .tbody:nth-child(even) {
+      background-color: #eceaea;
+     }
+     .titles {
+      font-size: 2rem;
+      font-weight: 30px;
+      text-align: left;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+     }
+    .upS {
+      margin: 10px 10px 10px 10px;
+      padding: 10px 10px 10px 10px;
+      width: 96%;
+      border: 1px solid rgb(255, 255, 255);
+      font-size: 16px;
+      font-family:Verdana, Geneva, Tahoma, sans-serif;
+      justify-content: center;
+    }
+    
+    .save_button {
+      width: 30px;
+      color: rgb(255, 208, 0);
+      height: 30px;
+      cursor: pointer;
+    }
+    .up_button {
+      width: 30px;
+      color: rgb(0, 47, 255);
+      height: 30px;
+      cursor: pointer;
+    }
+    .del_button {
+      width: 30px;
+      color: rgb(255, 0, 0);
+      height: 30px;
+      cursor: pointer;
+    }
